@@ -1,0 +1,66 @@
+.card{
+    width: 16rem;
+    height: 25rem;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+}
+.form-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: "Roboto";
+    /* margin-top: 1.5rem; */
+    /* padding-top: 50px; */
+
+}
+.vote-btn{
+    color: aliceblue;
+    font-family: "Roboto";
+    border: 2px solid #FF8000;
+    width: 10rem;
+    height: 3rem;
+    background-color: transparent;
+    text-align: center;
+    border-radius: 1rem;
+    transition: all 0.1s ease;
+    
+}
+.vote-btn:hover{
+    background-color: #FF8000;
+    color: aliceblue;
+    cursor: pointer;
+    border: none;
+}
+.upload-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 5rem;
+    aspect-ratio: 1;
+}
+.imgplaceholder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    place-content: center;
+    border-radius: 1rem;
+    width: 5rem;
+    aspect-ratio: 1;
+    background-color: gray;
+}
+.preview-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 5rem;
+    aspect-ratio: 1;
+    border-radius: 1rem;
+}

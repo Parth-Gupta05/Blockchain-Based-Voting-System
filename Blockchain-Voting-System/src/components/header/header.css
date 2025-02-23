@@ -1,0 +1,86 @@
+.header{
+    width: 99vw;
+    height: 10vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60vw;
+    /* padding:0 5% 0 5%; */
+}
+.img{
+    width: 3rem;
+    aspect-ratio: 1;
+    background-color: black;
+    background-image: url(../../assets/QuadrantLogo.png);
+    background-size: cover;
+}
+.header__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    color: aliceblue;
+    font-family: "Roboto";
+}
+.wallet-connect{
+    color: aliceblue;
+    font-family: "Roboto";
+    border: 2px solid #FF8000;
+    width: 10rem;
+    height: 3rem;
+    background-color: transparent;
+    text-align: center;
+    border-radius: 1rem;
+    transition: all 0.1s ease;
+}
+.wallet-connect:hover{
+    background-color: #FF8000;
+    color: aliceblue;
+    cursor: pointer;
+    border: none;
+}
+.header_nav{
+    width: 25vw;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.header_nav_item{
+    display: flex;
+    width: fit-content;
+    text-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 5rem;
+    color: aliceblue;
+    font-family: "Roboto";
+    font-size: 0.7rem;
+    transition: all 0.1s ease;
+    position: relative;
+    padding-bottom: 0.2rem;
+}
+.header_nav_item:hover{
+    color: #FF8000;
+    cursor: pointer;
+    /* padding-bottom: 0.5rem;
+    border-bottom: 2px solid aliceblue; */ 
+}
+.header_nav_item::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    border-radius: 2rem;
+    height: 2px;
+    background-color: rgb(184, 196, 205); /* Change color as needed */
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .header_nav_item:hover::after {
+    width: 100%;
+  }

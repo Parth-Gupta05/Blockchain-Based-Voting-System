@@ -1,0 +1,103 @@
+.voter-registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    height: 75vh;
+    margin-top: 1.5rem;
+    justify-content: center;
+    font-family: "Roboto";
+    h2{
+        font-size: 2rem;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+}
+
+.voter-form-container {
+    border-radius: 1rem;
+    border: 1px solid white;
+    width: 30vw;
+    padding-top: 2rem;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.image-preview {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    border-radius: 2rem;
+}
+
+.upload-box {
+    width: 10rem;
+    height: 10rem;
+    background: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.preview-img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.form-elements {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 2rem;
+    margin-top: 0.7rem;
+    border: none;
+}
+
+label {
+    width: 8rem;
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+    margin: 10px 0;
+    background: black;
+    /* border: 1px solid white; */
+    color: white;
+   
+}
+input:active, input:focus {
+    outline: none;
+    border-bottom: 0.1rem solid #FF8000;
+}
+
+.register-button {
+    color: aliceblue;
+    font-family: "Roboto";
+    border: 2px solid #FF8000;
+    width: 10rem;
+    height: 3rem;
+    background-color: transparent;
+    text-align: center;
+    border-radius: 1rem;
+    transition: all 0.1s ease;
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+.register-button:hover {
+    background-color: #FF8000;
+    color: aliceblue;
+    cursor: pointer;
+    border: none;
+}

@@ -1,0 +1,9 @@
+html{
+  background-color: black; 
+  background-image: url(../../Blockchain-Voting-System/src/assets/Background.png);
+  background-size: cover;
+  overflow-x: hidden;
+}
+body{
+  /* background-image: url(../../Blockchain-Voting-System/src/assets/Background.png); */
+}
