@@ -2,7 +2,7 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-<h1>Working Site: <a>https://blockchain-based-voting-system-b7tc.vercel.app/</a></h1>
+- [Working Site: ](https://blockchain-based-voting-system-b7tc.vercel.app/)
 
 Currently, two official plugins are available:
 
